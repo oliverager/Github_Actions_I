@@ -22,7 +22,7 @@ jobs:
 
       - name: Build and test
         run: |
-          cd NewsAPITests  # Navigate to the repository directory
+          cd newsapitests  # Navigate to the repository directory
           dotnet build
           dotnet test
           
